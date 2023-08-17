@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>REGISTERATION</title>
+        <link rel="stylesheet" href="register.css"> 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    </head>
+    <body>
+      <div class="bg-img">
+        <div class="navbar">
+          <ul>
+              <li><a class="active" href="register.html">Home</a></li>
+              <li><a href="login.php">login</a></li>
+              <li><a href="register.html">register</a></li>
+              <li><a href="contact_form.php">Contact</a></li>
+              <li><a href="about.php">About</a></li>
+              <li><a href="cart.html">
+                <div class="cart">
+                  <i class="bi bi-cart2"></i>
+                  <div id="cartAmount" class="cartAmount">0</div></li></a>
+            </ul></div>
+        <div class="container">
+          <form action="register.php" method="post">
+            <h2>REGISTERATION</h2>
+            <label for="name"><b>Name</b></label>
+            <input type="text" placeholder="Enter Name" name="name" required>
+            <label for="email"><b>Email</b></label><br>
+            <input type="email" placeholder="Enter Email" name="email" required> <br>           
+            <label for="psw"><b>Password</b></label>
+            <input type="Password" placeholder="Enter Password" name="password" required>
+            <label for="Number"><b>Number</b></label><br>
+            <input type="number" placeholder="Enter Number" name="number" required><br>
+            <a href="http://127.0.0.1:5500/Ref.html">
+            <button type="submit" class="btn">Register</button></a>   
+            <div style= text-align:center>
+            <p style="text-align:center">Already have an account? <a href="login.php">Login</a>.</p>
+            <p style="text-align:center">Are you a patient? <a href="survey.html">Fill the survey</a>.</p>
+            
+            </div>
+           </form>
+        </div>
+      </div>
+    </body>
+</html>

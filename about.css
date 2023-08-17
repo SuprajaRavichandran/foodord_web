@@ -1,0 +1,154 @@
+body{margin: 0;}
+ul{
+    list-style-type: none;
+    padding: 0;
+    top: 0;
+    background-color: rgba(230, 13, 13, 0.651);
+    width:100%;
+    height: 100px;
+    left: 0px;
+    margin:0;
+    position: fixed;
+    overflow: none;
+}
+li{
+    float: left;
+
+}
+li a{
+    
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 19px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active){
+    background-color: rgba(250, 23, 19, 0.803);
+}
+.active{
+    background-color: #ca7711c3;
+}
+#show{
+    background-image: url('s1\ coco.jpg');
+    width:1500px;
+    border: 0px; 
+    margin: 0px;
+    margin-left: 0px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      
+    
+
+}
+#show h1{
+    color: rgba(193, 16, 169, 0.934);
+    padding-top: 0px;
+    font-size: 200px;
+    margin-top: 5px;
+    text-decoration: solid;
+    text-align: center;
+}
+.cart {
+  position: relative;
+  background-color: #fff;
+  color: #212529;
+  font-size: 20px;
+  padding: 3px;
+  border-radius: 4px;
+  
+}
+
+.cartAmount {
+  position: absolute;
+  top: -13px;
+  right: -10px;
+  font-size: 12px;
+  background-color: rgb(71, 1, 249);
+  color: white;
+  padding: 6px;
+
+  border-radius: 10px;
+}
+* {
+    box-sizing: border-box;
+  }
+.imgr{
+    vertical-align: right;
+    width: 80px;
+    height: 80px;
+    border-radius: 500%;
+  }
+  fieldset {
+    background-color: #f4ce4601;
+   
+  }
+  
+  legend {
+    background-color: rgba(251, 55, 55, 0.911);
+    color: white;
+    padding: 5px 100px;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    float: left;
+    flex: 303.33%;
+    padding: 5px;
+    
+  }
+  .heal{
+    background-color: rgba(255, 0, 0, 0.085);
+    padding: 40px;
+  }
+.health{
+  float: right;
+  width:auto;
+  font-size: 50px;
+
+}
+.b1{
+  position: fixed;
+  bottom: 400;
+  border-bottom-right-radius: 300px;
+  width: 50px;
+  height: 10px;
+  border-radius: 500%;
+  background-image: url('s1\ coco.jpg');
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 14px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #fd1e05;
+  color: white;
+  padding: 12px 20px;
+  border: #f2f2f2;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #e42155af;
+}
+

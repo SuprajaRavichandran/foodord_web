@@ -1,0 +1,29 @@
+.container{
+ 
+    padding:60px;
+    width:700px;
+    height:auto;
+    left: 37%;
+    position: relative;
+    background: rgba(233, 53, 37, 0.822);
+    color: azure;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    text-indent: 50px;
+    text-align: justify;
+}
+p{
+    font-size:  18px; ;
+}
+body{
+    background-image: url(warning.jpg);
+ /* Full height */
+ min-height: 490px;
+ padding-top: 15px;
+  
+ /* Center and scale the image nicely */
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+
+}

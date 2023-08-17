@@ -1,0 +1,131 @@
+.center{ 
+    text-size-adjust: 100%;
+    padding-top: 1cm;
+  }
+h1{
+    font-size: 60px;
+    color: white;
+  } 
+.bg-img {
+    background-image: url("back.png");
+    /* Full height */
+    min-height: 800px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+  /* Add styles to the form container */
+.container {
+    position:absolute;
+    right: 525;
+    top: 10%;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+    height: 56%;
+    border-radius: 25px;
+    background-image: linear-gradient(to bottom right, rgb(255, 216, 126), rgb(238, 102, 44));
+  }
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #ffffff;
+    border-radius: 25px; 
+  }
+  ul{
+    list-style-type: none;
+    padding: 0;
+    top: 0;
+    background-color: rgba(230, 13, 13, 0.651);
+    width:100%;
+    margin:0;
+    position: fixed;
+    overflow: none;
+}
+li a:hover:not(.active){
+  background-color: rgba(250, 23, 19, 0.803);
+}
+li{
+  float: left;
+
+}
+.row {
+display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+float: left;
+flex: 303.33%;
+padding: 5px;
+
+}
+.active{
+  background-color: #ca7711c3;
+}
+.cart {
+position: relative;
+background-color: #fff;
+color: #212529;
+font-size: 20px;
+padding: 3px;
+border-radius: 4px;
+
+}
+
+.cartAmount {
+position: absolute;
+top: -13px;
+right: -10px;
+font-size: 12px;
+background-color: rgb(71, 1, 249);
+color: white;
+padding: 6px;
+border-radius: 10px;
+}
+li a{
+  
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 19px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active){
+  background-color: rgba(250, 23, 19, 0.803);
+}
+  input[type=email], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #ffffff;
+    border-radius: 25px; 
+  }
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  /* Set a style for the submit button */
+  .btn {
+    background-color:#641515;
+    border-radius: 25px;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor:pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  a {
+    color: rgb(0, 30, 59);
+  }
+  .btn:hover {
+    opacity: 1;
+  }

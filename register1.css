@@ -1,0 +1,142 @@
+.center{ 
+    text-size-adjust: 100%;
+    padding-top: 1cm;
+  }
+  h1{
+    font-size: 60px;
+    color: white;
+  }
+  .bg-img {
+    background-image: url("conback.jpg");
+    /* Full height */
+    min-height: 700px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; }
+  ul{
+    list-style-type: none;
+    padding: 0;
+    top: 0;
+    background-color: rgba(230, 13, 13, 0.651);
+    width:100%;
+    margin:0;
+    position: fixed;
+    overflow: none;
+}
+  /* Add styles to the form container */
+  .container {
+    position:absolute;
+    right: 525;
+    margin: 60px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+    height: auto;
+    border-radius: 25px;
+    background-image: linear-gradient(to bottom right, rgb(24, 184, 238), rgb(213, 234, 234));
+  }
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #ffffff;
+    border-radius: 25px;
+    
+  }
+  li{
+    float: left;
+
+}
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  float: left;
+  flex: 303.33%;
+  padding: 5px;
+  
+}
+.cart {
+  position: relative;
+  background-color: #fff;
+  color: #212529;
+  font-size: 20px;
+  padding: 3px;
+  border-radius: 4px;
+  
+}
+
+.cartAmount {
+  position: absolute;
+  top: -13px;
+  right: -10px;
+  font-size: 12px;
+  background-color: rgb(71, 1, 249);
+  color: white;
+  padding: 6px;
+  border-radius: 10px;
+}
+li a{
+    
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 19px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active){
+    background-color: rgba(250, 23, 19, 0.803);
+}
+.active{
+    background-color: #ca7711c3;}
+  input[type=email], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #ffffff;
+    border-radius: 25px;
+  }
+  input[type=number] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #ffffff;
+    border-radius: 25px;
+  }
+  li a:hover:not(.active){
+    background-color: rgba(90, 71, 201, 0.557);
+}
+  
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color:#1b1f51;
+    border-radius: 25px;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor:pointer;
+    width: 100%;
+    opacity: 0.9;
+    
+  }
+  
+  a {
+    color: rgb(0, 30, 59);
+  }
+  .btn:hover {
+    opacity: 1;
+  }

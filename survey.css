@@ -1,0 +1,75 @@
+h1{
+    font-size: 60px;
+    color: white;
+  }
+  .bg-img {
+    background-image: url("survey.jpg");
+    
+    /* Full height */
+    min-height: 65cm;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+ 
+  /* Add styles to the form container */
+  .container {
+    position:absolute;
+    background-image: linear-gradient(to bottom right, rgb(162, 82, 118), rgb(241, 252, 247));
+    right: 200;
+    margin: 20px;
+    max-width: 50cm;
+    top: 50px;
+    padding: 16px;
+    background-color: white;
+    height: 90%;
+    border-radius: 25px;
+    font-weight:500;
+    font-size:large;
+    font-style:normal;
+    font-weight: bold;
+    
+
+ 
+    
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #ffffff;
+    border-radius: 25px;
+   
+    
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color:#641515;
+    border-radius: 25px;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor:pointer;
+    width: 100%;
+    opacity: 0.9;
+    
+  }
+  
+  a {
+    color: rgb(0, 48, 96);
+  }
+  .btn:hover {
+    opacity: 1;
+  }
+ 

@@ -1,0 +1,169 @@
+.home1{
+    font-size: 300%;
+    background-image: url("beach.jpg");
+    min-height: 700px;
+    min-width: 500px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-size-adjust: 30px;
+    text-align-last: center;
+    padding-top: 80px;
+    color: cornsilk ;
+    font: size 100%;
+
+}
+
+body {
+  background: dodgerblue linear-gradient(45deg, aqua, dodgerblue, deeppink) fixed;
+
+}
+#comment-box, #post {
+  border: none;
+  border-radius: 5px;
+}
+#post:hover{
+  background-color: deeppink;
+  
+}
+.temp123
+{
+margin: 0 auto;
+margin-left: auto;
+margin-right: auto;
+}
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.riya{
+    background-color: rgb(90, 250, 41);
+    width:20%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: large;
+    font-weight: 800;
+  font-family: cursive;
+   
+}
+.Home_Topi{
+ font-family: 'Times New Roman', Times, serif;
+    background-color: purple;
+    color: white;
+    text-size-adjust: 30px;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+.riya:hover{background-color: yellowgreen;}
+
+
+.riya:active{
+    background-color: #fa2307;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.Ref_darlo{
+  text-align: center;
+    width: 100%;
+    height: 200%;
+    background-color: aqua;
+    color:black;
+    font-weight: 800;
+}
+.table_clr{
+  color: white;
+  height: 40px;
+text-align: center;
+}
+.table1{
+  color: white;
+  background-color: black;
+  height:40px;
+}
+
+.dis1{
+  color: white;
+  height: 40px;
+}
+.table2_clr{
+  height: 40px;
+}
+.table3{
+  height:40px;
+}
+.table4{
+  height:40px;
+}
+.table2p{
+ font-weight: 800;
+}
+.table3{
+  color: white;
+}
+.table3p{
+  color: white;
+}
+.head{
+  
+  background-color: rgb(224, 224, 92);
+  color: black;
+  font-weight: 600;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Whole{
+  padding-top: 2%;
+
+padding-left: 20%;
+padding-right: 20%;
+padding-bottom: 8%;
+border-top: purple 20px solid;
+border-bottom: purple 20px solid;
+border-left: purple 20px solid;
+border-right: purple 20px solid;
+}
+.Whole1{
+   padding-top: 2%;
+
+padding-left: 20%;
+padding-right: 20%;
+padding-bottom: 8%;
+border-top: rgb(97, 21, 238) 20px solid;
+border-bottom:rgb(97, 21, 238) 20px solid;
+border-left: rgb(79, 21, 238) 20px solid;
+border-right: rgb(122, 21, 238) 20px solid;
+}
+.table_1{
+  
+  border-top: rgb(16, 110, 74) 10px solid;
+  border-left: rgb(16, 110, 156) 10px solid;
+  border-right: rgb(16, 110, 156) 10px solid;
+  border-bottom: rgb(16, 110, 74) 10px solid;
+}
+.topi{
+  border-top: rgb(16, 110, 74) 10px solid;
+  border-left: rgb(16, 110, 156) 10px solid;
+  border-right: rgb(16, 110, 156) 10px solid;
+  border-bottom: rgb(16, 110, 74) 10px solid;
+  background-color: rgb(240, 127, 62);
+}
+.topic{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 1000;
+  
+  
+}

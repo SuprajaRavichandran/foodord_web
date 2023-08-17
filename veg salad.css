@@ -1,0 +1,54 @@
+.bg-img {
+    background-color: blanchedalmond;
+    /* Full height */
+    background-image: url(v.baac.png);
+    min-height: 1000px;
+    /* Center and scale the image nicely */
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;   
+  }
+  .head{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: rgb(0, 58, 56);
+  }
+  .container{
+    height: 100%;
+  }
+  .img1{
+    max-width: 50%;
+    padding-left: 0%;
+    padding-top: 0%;
+  }
+  * {
+    box-sizing: border-box;
+  } 
+  .row {
+    display: flex;
+    padding: 10px;
+}
+.button{
+  text-align: right;
+  padding-right: 11px;
+  border-color: rgb(65, 33, 11);
+}
+.img {
+  border: 5px solid rgba(127, 219, 255, 0.884);
+  width: 180px;
+  background-color:rgb(28, 151, 132);
+  box-shadow: 10px 10px;
+}
+  /* Create three equal columns that sits next to each other */
+.column {
+    flex: 33.33%;
+    padding: 95px; 
+  }
+  .desc {
+    background-color: aliceblue;
+    text-align:center;
+    padding-right:5%;
+    height: 50px;
+  }
